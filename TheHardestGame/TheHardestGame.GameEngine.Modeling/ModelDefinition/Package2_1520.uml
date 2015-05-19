@@ -1,0 +1,3086 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="a9622b38-99f4-4232-a677-fdf03a287bb1"
+  name="AdditionalClasses"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="25468f0c-40d0-43ca-b104-f983b743ff56"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DTheHardestGame.GameEngine.AdditionalClasses"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="28951a39-d2f3-48d6-839b-a4537d0231b7"
+        name="EnginePoint"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="6f945f85-79e1-44fd-a39a-2f366ba4cdff"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEnginePoint"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="0e22ebe7-0952-4ba8-a73a-1f7c576c2546"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fcffdf75-df92-4338-8973-25f33874c585">
+                <propertyInstance
+                  Id="aaa48912-259c-4fe0-a9cb-4306702476fb"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="77ba783e-d126-4506-8882-b8508959d977">
+                <propertyInstance
+                  Id="a410c174-e0fe-41e4-ad4c-5a07554008de"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4766676e-9784-4323-bb99-4162f71ff1f6">
+                <propertyInstance
+                  Id="335c9a0b-bdd6-427a-b5f6-68ad69a2debe"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2aa2b1c2-b265-4466-84a9-5acbf7feba6d">
+                <propertyInstance
+                  Id="54c90e02-751c-4892-b2a5-eb87172b1163"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f20a4026-6239-42d9-b1e7-a877e17950a9">
+                <propertyInstance
+                  Id="3eaa3331-8f88-4600-81f8-aa9ebdfab77b"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="3dd56893-76de-401a-b2d5-11fae0e96d1d"
+            isDerived="false"
+            sourceEndRoleName="EnginePoint"
+            targetEndRoleName="X"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="260a3beb-2a86-4da5-88fd-5246c524d328"
+              LastKnownName="Double"
+              LastKnownLocation="Package3_1520.uml" />
+            <description>Property X references type Double.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a50f08be-39e4-4cce-a898-4a362d4583b0"
+                  name="EnginePoint"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="c2a593bd-57f7-4510-9a77-a87ceb16b021"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="801b8d5f-b94e-4218-81c6-04b5f14aba98"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7eec66db-805e-4c47-9470-11e8df529ded"
+                  name="X"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="a972239a-fe8b-453f-b922-90417cd8457c"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="8f700e17-da14-4199-be72-bec032157e48"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="09968974-715b-407f-8182-c8a0a29eeaa7"
+            isDerived="false"
+            sourceEndRoleName="EnginePoint"
+            targetEndRoleName="Y"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="260a3beb-2a86-4da5-88fd-5246c524d328"
+              LastKnownName="Double"
+              LastKnownLocation="Package3_1520.uml" />
+            <description>Property Y references type Double.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7aa5f953-1079-4ce4-b639-78548ea978a3"
+                  name="EnginePoint"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="b415cf28-9a05-400d-b4e8-bde24b8f2f47"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="bf2654ce-f6a3-454a-a33f-bc3953b8fdfc"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4bc19c3e-73ea-4710-9f26-f52d93a086d0"
+                  name="Y"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="ae3ca08d-15f8-44f5-bfd5-dd71a3d39b42"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="dcecd821-3d3a-4ab5-abf3-2e4fc58611d3"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="a6d037d7-d8d8-4ca3-891f-74e282b7308f"
+            name="X"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="19dee3fc-0a4d-4d4c-8c81-e5d509432ace"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEnginePoint Member%3DX"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a9e4925e-0159-4b5f-81d4-6b6ba7b53817"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1f960db4-6c85-4f63-b0cc-f2a60f5c42bc">
+                    <propertyInstance
+                      Id="11dcd865-2a02-41fc-9729-1c9192003eda"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8c50e7a7-e92c-4161-b57d-dd7a43d36985">
+                    <propertyInstance
+                      Id="5949ed41-3da4-49ce-8468-5a86004ee1d1"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ff6ed4d3-3c4c-4356-9c77-de7d0a1a6eec">
+                    <propertyInstance
+                      Id="ca812f1c-86a9-451e-891d-11ab1a3d16bd"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c8df9713-f1db-4510-b4ca-6ee45247198a">
+                    <propertyInstance
+                      Id="a0679d48-16a0-45e6-854c-e9430a9bac0f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="841e3a3f-a4c3-43ab-bbcb-2e4dcf42dcc8">
+                    <propertyInstance
+                      Id="80f23818-d677-4f24-bc60-2f6cc8c56599"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8f929ccf-6f24-4cdc-9593-0779e2f613cb">
+                    <propertyInstance
+                      Id="d453271f-a285-4777-b5ca-812513104146"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f54ae774-7b29-4d57-8052-30d1caad2ac3">
+                    <propertyInstance
+                      Id="83eced55-edab-43cf-89c8-fe88d9f35e70"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="260a3beb-2a86-4da5-88fd-5246c524d328"
+                LastKnownName="Double"
+                LastKnownLocation="Package3_1520.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="09bab692-6e3d-4324-947a-b1eb3587520c"
+            name="Y"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="012092d6-5fe8-4cc6-a1b9-63ef21832fa6"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEnginePoint Member%3DY"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a8ee6e1e-c7b5-4c8b-b82b-7eea587a8ef4"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cebcbb68-0d7d-4725-b57d-508031129784">
+                    <propertyInstance
+                      Id="db2a9cec-2906-457b-b50f-aa3b0a7f95c2"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d32e6dc3-784b-41fb-8271-55b0e9826f9c">
+                    <propertyInstance
+                      Id="abf7f0af-39f5-4e6c-8b91-c19e90b76e40"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b9e0726c-58e9-4f5c-8036-8bce1105c591">
+                    <propertyInstance
+                      Id="b2caf45b-fbce-4668-b55e-e8477afff222"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3fd4138f-21b6-4076-8a99-92bb745f72ef">
+                    <propertyInstance
+                      Id="b3ca7f03-7b7c-4b47-878d-e9c4884fd2a6"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8a47d2b0-0ee7-4c67-8ebc-cc120f99a9a3">
+                    <propertyInstance
+                      Id="cd6b0b17-69a0-41da-878c-93bcd475909c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="71594080-71ae-43fa-beaa-e45fa7a0141b">
+                    <propertyInstance
+                      Id="e83e4d8e-7a62-49f6-9007-1e3945c8a403"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2def1728-3dbf-4614-b862-2a1113077d33">
+                    <propertyInstance
+                      Id="1fd60f8e-9cc4-4f79-a272-4624bb9a2e19"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="260a3beb-2a86-4da5-88fd-5246c524d328"
+                LastKnownName="Double"
+                LastKnownLocation="Package3_1520.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="4a9d08f5-a361-4635-ada3-e913027576d8"
+            name="EnginePoint"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="e14e69a5-047d-407b-acb6-e872fa6527e0"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEnginePoint Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="cf6333b5-3a4a-4caa-8967-07c1a5d84cac"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2315e036-2b87-454f-a76e-b12c1fd079fb">
+                    <propertyInstance
+                      Id="de652d4c-895c-48b3-a041-a8aa2d0dbc69"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3c8eae0a-24c8-4da4-a37e-b763b56acd8f">
+                    <propertyInstance
+                      Id="c2f7d0c6-6d31-45e6-8e10-00adb331fed5"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="73fac4ff-e327-400b-aee8-fef96c923e72">
+                    <propertyInstance
+                      Id="b0d14b84-81ff-42f0-b09e-d9a02171810b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0a3ab855-c5b6-4210-b53a-5403f7676b14">
+                    <propertyInstance
+                      Id="fc6831fe-cbc9-407a-947a-b89be1d2fad0"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="51a0ba6f-4bd3-46e7-968a-9a9e46b4e133">
+                    <propertyInstance
+                      Id="8c4e3b95-8b22-4473-83a4-e26edacbc5f7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="34e281f4-f580-4eef-ba1c-3c4b302a6e31">
+                    <propertyInstance
+                      Id="65fd05bb-c7a8-4ba9-ac91-5586f5a5d8c1"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b78ecba7-2a0e-4600-9ea8-48b98a94d806"
+                  name="x"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="1f0605d8-d8ba-428f-ab15-d14a0873f9a3"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEnginePoint Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)]) ParameterIdentifier%3Dx"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="260a3beb-2a86-4da5-88fd-5246c524d328"
+                      LastKnownName="Double"
+                      LastKnownLocation="Package3_1520.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c90c9eb8-5139-4b4e-a401-dcb89b3c046d"
+                  name="y"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="4e208d97-fdb5-41c1-949f-268c041afbec"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEnginePoint Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)]) ParameterIdentifier%3Dy"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="260a3beb-2a86-4da5-88fd-5246c524d328"
+                      LastKnownName="Double"
+                      LastKnownLocation="Package3_1520.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="b277ddf4-0dfa-4ebd-bcd7-70f1aff265a6"
+            name="EnginePoint"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b5d36efe-a12e-45e4-a9e7-af2ca3a0ce69"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEnginePoint Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEnginePoint)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="cc31c599-afb3-4bf1-b2e3-97349c4df1f6"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="03464f60-5054-409e-b3ef-f694c248c203">
+                    <propertyInstance
+                      Id="df543a6f-d10e-46c3-bb2f-b607ee737880"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d34f67b9-821d-4c32-8431-c65dba28d2bc">
+                    <propertyInstance
+                      Id="5770e23a-98af-42f9-a9d3-b88dca88a099"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8a0e1b82-d9a3-4c72-9258-aff9f9f30be9">
+                    <propertyInstance
+                      Id="cbbb0f00-0dcd-45b5-b50b-5b2b41bd8bb5"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="20a64e14-a7c2-4491-ad59-8273f992123c">
+                    <propertyInstance
+                      Id="579b444b-234a-44bd-a5eb-2b41b9de1e6a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e0f937ae-4020-4cdd-a16c-cf2a30d2e63a">
+                    <propertyInstance
+                      Id="0f083c41-0721-437d-af71-83379d1eb51b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b8419d45-0991-4134-bf8d-0f4ad9b2db93">
+                    <propertyInstance
+                      Id="c8eef25e-31d1-42ee-8839-32f3092122c9"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6c669c0f-ad20-4da4-a9ce-69e8fff228b2"
+                  name="ep"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="ffb2df08-ebba-43aa-8d9c-cc8369d1d220"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEnginePoint Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEnginePoint)]) ParameterIdentifier%3Dep"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="28951a39-d2f3-48d6-839b-a4537d0231b7"
+                      LastKnownName="EnginePoint"
+                      LastKnownLocation="Package2_1520.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="b8f66999-fc57-4bff-b796-588f18be06ef"
+            name="GetDistance"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f914075f-0d31-43f9-b929-aca0758ccbc3"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEnginePoint Member%3D(Name%3DGetDistance OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9a6f5055-0f3a-4a10-94b9-0d91018f2b8e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1df10f69-e6d5-478c-a6a2-27e6cd882c7d">
+                    <propertyInstance
+                      Id="c1d68b59-a90a-4dbe-9525-c85f25193d23"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0c8ddeab-dd75-4a86-b7c4-6a3cbdd4f037">
+                    <propertyInstance
+                      Id="079a2a3e-80e2-4338-a215-5a9118a6546e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="312169aa-6eb9-40d9-bed8-8490e591e5cf">
+                    <propertyInstance
+                      Id="65241bf6-41fa-4c72-acb1-9417d987b13c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a10c6506-3cb4-4ab6-9f82-5c2cf7b5d0a2">
+                    <propertyInstance
+                      Id="fd87877d-ea94-46d9-927c-4d718b21cda5"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="78ad8ed2-7f9e-4ac5-bcea-21f8ebb7e345">
+                    <propertyInstance
+                      Id="863c0861-92f1-464e-b861-8b5ebe1d75d9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ba4ac55f-0d2a-4ebc-8198-f18a2ae47c8b">
+                    <propertyInstance
+                      Id="a2366dbb-2b13-4781-97cd-6f225da941f8"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="868e793e-e961-458f-bff2-92c53dffd83e"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="260a3beb-2a86-4da5-88fd-5246c524d328"
+                      LastKnownName="Double"
+                      LastKnownLocation="Package3_1520.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="85d61fed-a733-456c-bee7-08145f0f12ce"
+                  name="x2"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="2635f3ec-b4dc-4c3c-9d92-f6b0bf76ea73"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEnginePoint Member%3D(Name%3DGetDistance OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)]) ParameterIdentifier%3Dx2"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="260a3beb-2a86-4da5-88fd-5246c524d328"
+                      LastKnownName="Double"
+                      LastKnownLocation="Package3_1520.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b938b272-f0de-4fb3-8d5a-d1f3f639034c"
+                  name="y2"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="a9d1ee6d-53b5-4d13-874a-67b979d2a717"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEnginePoint Member%3D(Name%3DGetDistance OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)]) ParameterIdentifier%3Dy2"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="260a3beb-2a86-4da5-88fd-5246c524d328"
+                      LastKnownName="Double"
+                      LastKnownLocation="Package3_1520.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="7b3c1f07-cef6-41a2-9563-d7b549df9eb8"
+            name="GetDistance"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3916cb24-ca4f-4992-80f3-1fc39171989a"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEnginePoint Member%3D(Name%3DGetDistance OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEnginePoint)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fa97d133-2dac-468b-b2d5-e042f743795c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="92bd79ed-7fcd-4650-9ae0-bc46bae21f9a">
+                    <propertyInstance
+                      Id="5a42afcd-af04-41bc-bda7-149004dade43"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8625b653-07e0-4de9-b7a9-e04fd2e8bcab">
+                    <propertyInstance
+                      Id="4a1cfc24-da7b-4be7-a75f-0cf357967bd8"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="01fba42a-85ec-4ab2-b96e-26512ea19230">
+                    <propertyInstance
+                      Id="d8c266a3-60a8-44cb-a1b1-250aacd90be1"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9d20b370-13c6-455b-8ae8-c27aebefe723">
+                    <propertyInstance
+                      Id="d4be6b93-bb0a-42ea-a271-009c24d8b59a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e69f67c6-b40c-4ffb-8203-7f1870540c8b">
+                    <propertyInstance
+                      Id="3a2e3928-22ec-42e8-99da-940cb5338a5f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f7b882a4-c41c-4369-b32f-d42955acaefd">
+                    <propertyInstance
+                      Id="3660a2cc-727b-43af-9e9a-7e1d36d77e2d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ad489ea8-c2eb-4713-ac24-437aad4ae926"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="260a3beb-2a86-4da5-88fd-5246c524d328"
+                      LastKnownName="Double"
+                      LastKnownLocation="Package3_1520.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="3222d942-1591-4963-9981-a92ae8cd8b7e"
+                  name="ep2"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="8746bf99-9905-4fcd-abb5-90c35580780a"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEnginePoint Member%3D(Name%3DGetDistance OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEnginePoint)]) ParameterIdentifier%3Dep2"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="28951a39-d2f3-48d6-839b-a4537d0231b7"
+                      LastKnownName="EnginePoint"
+                      LastKnownLocation="Package2_1520.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="6a1c8a01-7020-4725-8056-dd70e9720909"
+        name="EngineRectangle"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="1cdc592a-c681-4bc2-b497-325bdb0f0333"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEngineRectangle"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="012f5666-0415-4978-a042-c2acfbdbbb59"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="656d65d7-d26a-455c-9d5c-f2d584ceb6cd">
+                <propertyInstance
+                  Id="372a82a1-4f6e-458a-9252-3c4dfd1ec2dd"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0c892759-66ea-408f-8af1-1fe997bc5a6c">
+                <propertyInstance
+                  Id="8665b9ba-7e82-436a-839b-17e9bebf03f9"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6869665b-6052-4146-8249-079ff8ff39d4">
+                <propertyInstance
+                  Id="5f19015a-0ebd-4eaf-8da6-d2e228b13682"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="eb84ff05-f98c-4108-b5b4-a23a81523fd2">
+                <propertyInstance
+                  Id="0fc66142-2af0-4cd6-99a0-d8bb9d61e98d"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="48f2ead7-095c-4c36-a42d-ee1935c02d3b">
+                <propertyInstance
+                  Id="dda9a9a7-08a8-4cb8-bc52-a6b704c5c54b"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <dependency
+            Id="405a1d36-4f21-4ff7-8265-b857e9cee72d">
+            <enumerationMoniker
+              Id="742f0b60-512b-4dd3-aac3-13f1038979c6"
+              LastKnownName="Directions"
+              LastKnownLocation="Package4_1520.uml" />
+          </dependency>
+        </suppliersInternal>
+        <targetEnds>
+          <association
+            Id="23155cf2-0ff7-4baf-8e62-52c69c3cc816"
+            isDerived="false"
+            sourceEndRoleName="EngineRectangle"
+            targetEndRoleName="Size"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="42b1fb4f-5acb-4a92-86f1-bbdd046ec257"
+              LastKnownName="EngineSize"
+              LastKnownLocation="Package2_1520.uml" />
+            <description>Property Size references type EngineSize.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="426a1f07-bd4d-46f1-bcde-4af53da2b4fa"
+                  name="EngineRectangle"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="7681cdc8-0b95-4c9a-b4da-7e264e44645b"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="cf2bf83e-c3ab-4678-98db-b3e5482802d2"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="816c3bd4-f10c-4571-b8ec-b399dca3649b"
+                  name="Size"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="71c2a94d-a6bb-460a-9010-ab2723cfdd8b"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="53fbb22f-9594-4618-897a-57e16d1f4218"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="72f812f8-5724-42f3-9fc8-b343d46deb44"
+            isDerived="false"
+            sourceEndRoleName="EngineRectangle"
+            targetEndRoleName="X"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="260a3beb-2a86-4da5-88fd-5246c524d328"
+              LastKnownName="Double"
+              LastKnownLocation="Package3_1520.uml" />
+            <description>Property X references type Double.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="393207d7-8585-4f3f-a823-91f52b0122d3"
+                  name="EngineRectangle"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="6cc3b1b0-dc58-47ff-9c60-8904134617dd"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="efb1c1ba-fa33-4639-8470-8e65fce6ddab"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3fd11c9f-d195-4fbf-9ca5-49a90105cbb5"
+                  name="X"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="dd8dc5fd-b343-4952-86ce-1b018db3001d"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="eac6e9c4-d3f7-4da9-a218-74779aac52b0"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="9463a18c-a145-4aad-85bc-a13c28f82328"
+            isDerived="false"
+            sourceEndRoleName="EngineRectangle"
+            targetEndRoleName="Y"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="260a3beb-2a86-4da5-88fd-5246c524d328"
+              LastKnownName="Double"
+              LastKnownLocation="Package3_1520.uml" />
+            <description>Property Y references type Double.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f94a0373-3ecb-44b5-aa7d-63ebc03345da"
+                  name="EngineRectangle"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="361f0fa0-ef98-4b59-b837-b22a78557608"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="e5e52df1-3cdb-4432-961e-c3507717a339"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="30e676b1-8588-4a9b-8971-58d9c0fa5f5b"
+                  name="Y"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="5fbdff10-7f7b-46f4-ad18-e8d7308700ae"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="a4d4f279-481f-43a2-9013-9e7dba3f3314"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="0e7878d4-8e4d-4fc5-af81-5e68af0348f2"
+            isDerived="false"
+            sourceEndRoleName="EngineRectangle"
+            targetEndRoleName="Height"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="260a3beb-2a86-4da5-88fd-5246c524d328"
+              LastKnownName="Double"
+              LastKnownLocation="Package3_1520.uml" />
+            <description>Property Height references type Double.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ca0dfba2-a20c-4118-94c2-73e19a1e1da7"
+                  name="EngineRectangle"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="c96afcd9-1d78-46d6-9e2d-0ecc78cf6ebe"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="b9f2a72e-ee63-4e8c-87d6-caec944dbdba"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="82476839-77c4-479c-8b1f-ed5caf654d2c"
+                  name="Height"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="94bafc2d-8e5f-4d5b-8708-a46ca26f6e8a"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="37dd784e-ee74-407b-b3cf-547e5c4c1aec"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="7af6315a-f5e3-4e4c-9538-c23332111c09"
+            isDerived="false"
+            sourceEndRoleName="EngineRectangle"
+            targetEndRoleName="Width"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="260a3beb-2a86-4da5-88fd-5246c524d328"
+              LastKnownName="Double"
+              LastKnownLocation="Package3_1520.uml" />
+            <description>Property Width references type Double.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="22142f71-840e-4f0e-a364-f7d884ad2cf1"
+                  name="EngineRectangle"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="f78b9d34-a55b-4a25-a0d6-0526e3e9f876"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="347e2eba-9cba-4ef5-9df5-e89389babe7e"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="952d5ce4-8841-48a9-a926-7b42fcc21a51"
+                  name="Width"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="b083c0d2-de1a-4ce1-b41a-93e08004b64b"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="716f4081-ae37-4667-a02f-62b7b9509778"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="f6d39b89-2bf2-4969-ac46-f8873dc5f965"
+            isDerived="false"
+            sourceEndRoleName="EngineRectangle"
+            targetEndRoleName="LastOffset"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="260a3beb-2a86-4da5-88fd-5246c524d328"
+              LastKnownName="Double"
+              LastKnownLocation="Package3_1520.uml" />
+            <description>Property LastOffset references type Double.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b1ad3eec-869b-4e73-997a-f5ab6a546b04"
+                  name="EngineRectangle"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="c8170648-129f-473b-a13b-1c1d56cf049a"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="09720ec1-41d0-4da0-887e-27980652c47f"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="85618f19-b302-45a1-88da-2126340677bb"
+                  name="LastOffset"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="8d68a64b-7519-4e31-bf13-9c7720e5c1f7"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="fca4a5fa-e8b3-4a5c-9c49-a1cad50ec721"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="ce55c3d4-529f-4de1-a09f-9e24aafd63e9"
+            isDerived="false"
+            sourceEndRoleName="EngineRectangle"
+            targetEndRoleName="EnginePoint"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="28951a39-d2f3-48d6-839b-a4537d0231b7"
+              LastKnownName="EnginePoint"
+              LastKnownLocation="Package2_1520.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a0584a0d-d3b4-4740-8a23-f99208268148"
+                  name="EngineRectangle"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f7f24a63-d976-4a2e-af9a-51b50a51ec61"
+                  name="EnginePoint"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="7f0456fe-6ae1-4219-bf60-e6cbcb703cbc"
+            name="Location"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="96583463-857c-415b-aa9c-c53d15b5f123"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEngineRectangle Member%3DLocation"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="cfed6d93-639e-4f53-af0b-cb4723a64224"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0b9e4705-b2b9-4da5-9352-0e9023740dce">
+                    <propertyInstance
+                      Id="c3445702-56c6-4702-a3ed-75851a2879fc"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="22aa6242-7d98-4c72-af7c-71fe47985c22">
+                    <propertyInstance
+                      Id="03aa7033-8e21-4743-b948-4094a8210dd8"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3e7276c1-e205-42bb-a345-66a0c571ecf7">
+                    <propertyInstance
+                      Id="ba4f9d0d-25f7-4700-9849-69afa3e6625f"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="291f02fb-b112-4bfd-89cc-8cdc555c7746">
+                    <propertyInstance
+                      Id="4d29debc-cc85-4705-a79c-115aa95f9777"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f3facb91-23de-46eb-b5ca-1292f469800c">
+                    <propertyInstance
+                      Id="88f27363-f3cf-4956-b0d1-ae8ceed5cda3"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a30c755d-ccdf-4ba8-9f56-8f81e259d96e">
+                    <propertyInstance
+                      Id="48ba5afd-8607-4112-b558-6266de3c5844"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aad1384b-19f4-4ebc-9f59-08751e3ac37b">
+                    <propertyInstance
+                      Id="3debd511-308a-49f8-b482-fa1461132197"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="28951a39-d2f3-48d6-839b-a4537d0231b7"
+                LastKnownName="EnginePoint"
+                LastKnownLocation="Package2_1520.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="d1c68fb3-4edf-4e7b-bd62-c915e2848412"
+            name="Size"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="2fb0241e-4af5-4733-bbad-a63ecfb6632e"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEngineRectangle Member%3DSize"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8b046d52-f495-4492-ae2a-69f54f08b3b9"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ad9d9b51-4ed9-40eb-98fe-b6edc0405eb8">
+                    <propertyInstance
+                      Id="b9af3df7-f8d3-4c4a-8417-6d574db1dcb1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="321221fd-7154-4e38-88d4-180221357be7">
+                    <propertyInstance
+                      Id="e270daaf-782a-4f85-9956-a6d2d95fa27c"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6a3e1df3-b766-4802-a8ac-d34ef0f4932b">
+                    <propertyInstance
+                      Id="8a4af989-1242-4209-a4e1-50da6fa9a8a2"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="819ba927-9822-4fa2-9bfd-1f720becbfaa">
+                    <propertyInstance
+                      Id="fffed985-3e7c-4dda-aa57-13b2009f3484"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fd246c90-74c4-4a28-b57e-3359474e6bd7">
+                    <propertyInstance
+                      Id="8befc85c-232e-4e42-b404-596a4ba45536"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="46bfff4f-4153-4912-aace-86da908fd816">
+                    <propertyInstance
+                      Id="2882f31c-edd7-4f4a-8cae-9603e6b7181c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c2526a2d-f2b7-4ca7-ae32-097a4203658d">
+                    <propertyInstance
+                      Id="033dd88b-b23d-4300-bd91-ecf55dc4768f"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="42b1fb4f-5acb-4a92-86f1-bbdd046ec257"
+                LastKnownName="EngineSize"
+                LastKnownLocation="Package2_1520.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="03cdfe9f-670d-439a-896b-14193c68b01c"
+            name="IsBarrier"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="151f0ce3-e7e2-44e5-ae1e-a91ca16408d2"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEngineRectangle Member%3DIsBarrier"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5001e6c7-ec66-43c2-a21b-3070f5d24947"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4029281c-74de-49e1-a904-4792e6f4d3f5">
+                    <propertyInstance
+                      Id="479d0e4c-c4cf-4833-9b60-426513eb0b6c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="036792d3-2292-4484-950a-c035922b31e9">
+                    <propertyInstance
+                      Id="9e0838b2-160e-4c7f-842e-a11111f33da1"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="660e2d76-4735-4fe7-8029-ed4bd3558dc3">
+                    <propertyInstance
+                      Id="9f5433e2-ae61-4262-9a75-d66f1989c9dd"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="924acd65-82ea-4bcc-a570-b57c2bd26686">
+                    <propertyInstance
+                      Id="8335f542-62ad-494d-a305-816712f93749"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="058b287b-a65b-4ac7-8240-7b84fe7b1f2a">
+                    <propertyInstance
+                      Id="44bc58d0-dadf-4fbb-b4a2-07eef78369b6"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e27f0a48-b520-4977-bd1d-e32663b6d6a1">
+                    <propertyInstance
+                      Id="a6476e8a-4bb5-455f-b494-4e989b0e6ced"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e1567683-9155-4524-997c-08e5338458e2">
+                    <propertyInstance
+                      Id="c43120de-599f-48d4-ac7d-3d7a2b61c840"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                LastKnownName="Boolean"
+                LastKnownLocation="TheHardestGame.GameEngine.Modeling.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="bde093d4-4a30-4c71-8305-b8db89cb7d65"
+            name="Direction"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="d0a31bbe-0210-4e15-be63-e8ddda8b51e5"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEngineRectangle Member%3DDirection"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fcc4a502-9487-4a2c-9c3a-82e7f5e6d200"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="85f5497c-c651-4481-b363-c3332e775d38">
+                    <propertyInstance
+                      Id="0ac75d6d-f259-44ed-b14c-b5dccfdaaffa"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ebcd61a2-6feb-4e06-bdb1-d9589ae3024e">
+                    <propertyInstance
+                      Id="d0aab7ae-2668-49a4-a50a-0fd212d5264a"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="88d07d49-93de-40ed-b323-8a0e898bc36d">
+                    <propertyInstance
+                      Id="01f48c23-e099-4297-a0a9-f56e5e3e1c68"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7877302b-28dd-4a9c-91e0-26d4df601b02">
+                    <propertyInstance
+                      Id="3dfac9c9-b33c-49cf-ac0e-7ecfe1daa6f9"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="da43f80a-68b2-457b-b2f7-3d439d4abd06">
+                    <propertyInstance
+                      Id="4a8ac2c2-5770-4dfd-8240-529fc22b1693"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bffed1fc-86ec-4636-9735-e012f47828ba">
+                    <propertyInstance
+                      Id="221d846f-b15f-45a6-a555-e4eeedb58dd7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="79be3c0a-7609-4b03-855a-d6214ae13654">
+                    <propertyInstance
+                      Id="c1123bcc-5137-4e31-afec-b4605e79b348"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <enumerationMoniker
+                Id="742f0b60-512b-4dd3-aac3-13f1038979c6"
+                LastKnownName="Directions"
+                LastKnownLocation="Package4_1520.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="9dafd25a-bcd6-40b9-9770-148ff3e9e225"
+            name="X"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="901290d6-d8e1-4ae2-a59e-1699b8c113e5"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEngineRectangle Member%3DX"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2b084f40-9846-4c1c-ae66-38bf87493575"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="67b81372-b16b-4a66-af55-fdb4940c37e1">
+                    <propertyInstance
+                      Id="5abde670-968a-43c4-867d-ef807e19a2a4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ee63296a-dd16-4502-ba0e-d2dfa03ec626">
+                    <propertyInstance
+                      Id="9b3380fc-71c7-4e19-92d8-164c29d30e96"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f59f314b-8078-454c-a6c4-986d5e787e1e">
+                    <propertyInstance
+                      Id="d21a841b-ae21-44a8-bc69-08db39be62ce"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b5a49ac5-390e-4c26-836f-a57ffdf5de60">
+                    <propertyInstance
+                      Id="9ebb80d9-247e-4b3d-a496-906c32e7613c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="77099df4-7c33-4680-a26d-e16c4c5b6dfc">
+                    <propertyInstance
+                      Id="c3e11015-3e64-4c8b-a24e-88963f21d6c8"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="468751f2-87bc-4bc1-b697-4573289ba4e9">
+                    <propertyInstance
+                      Id="baaf1735-5805-4a52-8b5e-ae6fcf1bcfdd"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4f031302-0c07-488c-8436-b146022ead4f">
+                    <propertyInstance
+                      Id="a6ed40cf-ea34-483f-81e5-c2027c8d10ac"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="260a3beb-2a86-4da5-88fd-5246c524d328"
+                LastKnownName="Double"
+                LastKnownLocation="Package3_1520.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="79ad8da7-c5f1-470c-87ad-ea184274bfe9"
+            name="Y"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="385b5b8b-54c7-4da6-885d-2d7fa7a4f686"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEngineRectangle Member%3DY"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="62199d76-5f66-4bd6-a0d8-8fa64b04ee13"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="97af9973-3cfe-48c3-85e2-bd572f596c4f">
+                    <propertyInstance
+                      Id="31c29f17-e11f-4289-b849-dcf1513109c0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="953ba8f5-4f5d-41ef-8fc5-dadf3a008186">
+                    <propertyInstance
+                      Id="c7c733ac-ec73-4ac0-a3cc-2ddb124f27a7"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="68b613fd-73ac-4571-be0d-90ec40630fd7">
+                    <propertyInstance
+                      Id="68e0559a-a14f-4fc6-a7fb-c89839218b80"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="51ccb878-46c6-4584-ad4d-95808a20a1f7">
+                    <propertyInstance
+                      Id="3127fdf8-7b91-47dd-9e1c-163bdf306126"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="287824b3-4e0b-4a1d-a8e2-822fb9e87a7f">
+                    <propertyInstance
+                      Id="a02cd547-72bf-40b7-ba2c-16aec0821e56"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="342df1f8-1e8d-4181-a01e-c01f72b4a9e2">
+                    <propertyInstance
+                      Id="01aa4a1c-6c32-4d1f-a5ac-eb6d80349d70"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="02c5fede-54ad-4aaa-9a0a-27409e779a6a">
+                    <propertyInstance
+                      Id="23781277-6ee5-41f2-bfa6-244cd6fce61d"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="260a3beb-2a86-4da5-88fd-5246c524d328"
+                LastKnownName="Double"
+                LastKnownLocation="Package3_1520.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="27ffe80e-2c2e-4b69-8773-497811e55c3a"
+            name="Height"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="1828e566-2216-45ef-9f93-007b6f72c27f"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEngineRectangle Member%3DHeight"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="74d7f1f2-5dca-49dd-9c44-0bbdfd384eaf"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9f7ac3e6-465d-4814-9482-435a66d999e1">
+                    <propertyInstance
+                      Id="1c0f4a27-3aa6-403a-a722-e800563878bf"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fd7d0af8-faae-4b07-bcec-364db5fd0c45">
+                    <propertyInstance
+                      Id="4e95be13-52e5-4904-a87c-3f3b276280f1"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8fd0fa76-8917-431f-998c-688a900f8f24">
+                    <propertyInstance
+                      Id="1b5b3708-349f-4631-8994-b0d2229b393b"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a369c289-8fb0-4c01-8850-33bcbace91ac">
+                    <propertyInstance
+                      Id="0852007b-f1a6-4f6f-8a84-4880df581c04"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="13a61766-48cc-43c1-8c20-1ce3bc7187c5">
+                    <propertyInstance
+                      Id="a4a6de2a-50ff-499d-b9a7-c2d2c2a0be09"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2767ea26-3ad2-4634-bdc5-44c34a3dc34a">
+                    <propertyInstance
+                      Id="c6532c61-abf6-4f59-a09d-3aeaf31e0231"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7045e5f4-c039-4808-9f2c-5cc6c75a89fe">
+                    <propertyInstance
+                      Id="aafd0104-fb2d-45c7-a7d7-dcfa6491a3fd"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="260a3beb-2a86-4da5-88fd-5246c524d328"
+                LastKnownName="Double"
+                LastKnownLocation="Package3_1520.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="ef7cec05-a2bc-4489-9deb-d85c4d78801b"
+            name="Width"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="00dfbbc8-0fcd-4fb1-af10-6add5a5d715c"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEngineRectangle Member%3DWidth"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b2171eaf-7957-4ea8-a539-15929b1d8743"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="26226a01-5b3c-48ee-9f3e-d953126be0e6">
+                    <propertyInstance
+                      Id="4699255b-818a-4fa5-aadf-c2c9a2c4efac"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9f544792-1382-4595-856e-539e2a3eb649">
+                    <propertyInstance
+                      Id="046b7cb1-d40d-45f1-82e6-4e9e8855f4eb"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1ca59898-b359-4af9-8b72-8b74bcfb3b57">
+                    <propertyInstance
+                      Id="4b4c75a8-670a-4826-a68c-77f0b8759410"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cb2063f1-a716-4412-81e2-e21230bb3243">
+                    <propertyInstance
+                      Id="b312adff-4df9-4176-b407-8d32f4f74bfd"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="65a2174a-3767-4e45-a6a4-3442c83c257e">
+                    <propertyInstance
+                      Id="cb6ad85f-1815-431f-af1a-3f9e85ea8139"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="41561eb3-febd-4790-be10-52a79c0f5de9">
+                    <propertyInstance
+                      Id="e78af4f6-f9c7-4a93-8e74-c2ba95cf2feb"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="05dbe337-7332-45d1-be5b-08b264dc33f8">
+                    <propertyInstance
+                      Id="04e836d1-58b6-4fce-9669-d17cfde87ea1"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="260a3beb-2a86-4da5-88fd-5246c524d328"
+                LastKnownName="Double"
+                LastKnownLocation="Package3_1520.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="aac31808-dd76-4d6a-b2d5-9fa583f55cce"
+            name="LastOffset"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="b8da2490-434c-4a2d-9456-f213900135ee"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEngineRectangle Member%3DLastOffset"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b7a7ebc5-4d56-43f3-93bf-884ae3bccee0"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8a773a76-2bb3-44ab-8e94-83587130f2e7">
+                    <propertyInstance
+                      Id="30093df8-80e2-49c1-8eaa-395a2bd00a80"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="16f20ae5-913d-4130-a294-232c49a1e255">
+                    <propertyInstance
+                      Id="49ad3e21-9850-4dd2-bd54-b2a9d3c5af06"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d3199207-eec8-4fd8-9140-e2df75c36080">
+                    <propertyInstance
+                      Id="7bdd1957-6769-438e-b388-7578f4208ddc"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="11995242-4bfd-417a-9787-c082de621e90">
+                    <propertyInstance
+                      Id="a7c45847-dabb-4874-aa67-de53958b046e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cf160ddf-8576-4bc2-b30a-71bdf21e1d19">
+                    <propertyInstance
+                      Id="06accc2a-98b6-43c8-b49b-8dffbd67103b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d6deb0a8-26e9-4050-a318-a69f45e30f46">
+                    <propertyInstance
+                      Id="49cc0aa7-540a-4181-bd0d-d801891d2feb"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d5692de1-5740-48ad-a668-4d9056c082d1">
+                    <propertyInstance
+                      Id="8fddffcc-a4cf-44ac-84c3-117b8044ca36"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="260a3beb-2a86-4da5-88fd-5246c524d328"
+                LastKnownName="Double"
+                LastKnownLocation="Package3_1520.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="5933b8ad-efbd-44fa-86e4-724d3d3cbeb2"
+            name="EngineRectangle"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ccb73c8c-6466-40c9-9f6d-f4d6f69ff83e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEngineRectangle Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEngineRectangle)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f94beed3-9222-4492-9a68-42e046ef06da"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fb808a44-f849-4af1-817d-3ccf11269842">
+                    <propertyInstance
+                      Id="f85f9eb1-8b54-43d5-9739-a4a101342b4b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eb76159f-960c-4c7c-bf67-be182a823ef5">
+                    <propertyInstance
+                      Id="fb6e9c0d-8d6c-4175-bf4f-dbd0e387248b"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2239d4c8-26bb-45ee-8a76-8e7ad4f2597b">
+                    <propertyInstance
+                      Id="637209a3-6773-46af-a760-8bd338528e20"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a0a4e337-3a70-4e99-9a43-aebe11e2e47b">
+                    <propertyInstance
+                      Id="8b562101-0106-44ea-a8c0-46cd5f4f8f4c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="39d1d98a-573b-4354-94c9-b2b5a11791e1">
+                    <propertyInstance
+                      Id="da53c7fe-bd47-4271-97ca-b8a020549554"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dfc96c49-37c5-47b2-b974-96f2113a15ba">
+                    <propertyInstance
+                      Id="3a2ec655-111d-494e-b172-c71f2be774a6"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="0757b9e0-9d89-4069-8e6f-e99ace26ae50"
+                  name="er"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="7ca8e768-2ff7-4e75-b880-f616d1209315"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEngineRectangle Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEngineRectangle)]) ParameterIdentifier%3Der"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="6a1c8a01-7020-4725-8056-dd70e9720909"
+                      LastKnownName="EngineRectangle"
+                      LastKnownLocation="Package2_1520.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="5964a40a-0636-45d4-a467-b423e963e862"
+            name="Move"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="e905d698-37ac-4222-abf5-e2a0851ed5e0"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEngineRectangle Member%3D(Name%3DMove OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="20397a83-a4cf-481f-933a-bad01782bf00"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="532858e0-3cb0-47c9-9fba-c17c937a5d33">
+                    <propertyInstance
+                      Id="c913b85e-693b-4ec5-9de5-b86dfa526655"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="15d1743a-7250-4528-ad0d-9bf89dc8ce8e">
+                    <propertyInstance
+                      Id="9dae548e-bf21-4c80-9c52-0c9c33356211"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b353ed01-5b9e-469f-ae0d-54a0dad15d39">
+                    <propertyInstance
+                      Id="6c3ab213-c20b-45f0-855e-fb4b35ab24e5"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f929e8ae-cac5-453d-ac0d-9ca1573ec58c">
+                    <propertyInstance
+                      Id="ecf557b9-7a46-42be-a26e-31da5677dbda"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d0f098f8-fd49-4f40-a68b-76053467312b">
+                    <propertyInstance
+                      Id="6705c27b-6522-48c3-a146-4541e2817031"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="607f4d61-3582-4e24-abda-88cf2b44d0d2">
+                    <propertyInstance
+                      Id="452ca906-e7c5-42c0-a2b9-9e3d7cfbf999"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="060991c0-8531-4cba-bfff-8507f8990290"
+                  name="offset"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="ee49651e-d311-4ba9-a5d6-8cf73fed36a4"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEngineRectangle Member%3D(Name%3DMove OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)]) ParameterIdentifier%3Doffset"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="260a3beb-2a86-4da5-88fd-5246c524d328"
+                      LastKnownName="Double"
+                      LastKnownLocation="Package3_1520.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="1775584f-dad6-4f3e-b3d3-26e9421e40a5"
+            name="EngineRectangle"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="858c8c50-2ef7-4010-bc19-c56812f859bb"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEngineRectangle Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.Enums Type%3DDirections)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="96c6eb3b-9400-4af3-8058-9ff38f13531d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1100b819-4e84-4691-8483-f69b1fd5f3cb">
+                    <propertyInstance
+                      Id="0c352e8c-e36d-4c7c-8f7a-e7c3d7f8f606"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="618408aa-e3d9-4229-a159-bdc40d4a6be3">
+                    <propertyInstance
+                      Id="e653ee9c-8db7-42b7-b6d1-62bc4a72957f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0064d4a6-2e19-498b-8123-ead0a0c7067b">
+                    <propertyInstance
+                      Id="ef2f08dc-799f-4afe-ae76-57aa2a7938d6"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e11813b0-2e17-482b-9759-def3a4c908ac">
+                    <propertyInstance
+                      Id="b1030ff8-f6d3-4938-8315-040bfe783442"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a3611fd8-867d-4ad7-8136-8bbd071cc30a">
+                    <propertyInstance
+                      Id="2722b2b6-26c0-494b-b656-19629d076a82"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fe8922f2-0dcd-46c7-8fdd-237875584a44">
+                    <propertyInstance
+                      Id="02fbd4c1-85c4-4241-bab6-17659075c4e6"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6ed0e543-c0a0-40e3-90dc-bfb3a01acb12"
+                  name="x"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="592a671d-6859-484e-80ee-5b8cce94b2ab"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEngineRectangle Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.Enums Type%3DDirections)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]) ParameterIdentifier%3Dx"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="260a3beb-2a86-4da5-88fd-5246c524d328"
+                      LastKnownName="Double"
+                      LastKnownLocation="Package3_1520.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7c9fb97e-5d37-4e7f-b32f-a1878095396a"
+                  name="y"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="ea7a4484-9431-42f4-8d37-d89f0bfe2307"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEngineRectangle Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.Enums Type%3DDirections)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]) ParameterIdentifier%3Dy"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="260a3beb-2a86-4da5-88fd-5246c524d328"
+                      LastKnownName="Double"
+                      LastKnownLocation="Package3_1520.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="decd9239-d91e-461d-9ef8-b64bb261e021"
+                  name="height"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="91de0af9-8416-47c8-91ef-8d51b969b329"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEngineRectangle Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.Enums Type%3DDirections)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]) ParameterIdentifier%3Dheight"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="260a3beb-2a86-4da5-88fd-5246c524d328"
+                      LastKnownName="Double"
+                      LastKnownLocation="Package3_1520.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="509c7e74-7401-4328-a3ea-e6dd93491249"
+                  name="width"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="abea9486-a8c6-4827-9c3d-9e8e98a63d9a"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEngineRectangle Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.Enums Type%3DDirections)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]) ParameterIdentifier%3Dwidth"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="260a3beb-2a86-4da5-88fd-5246c524d328"
+                      LastKnownName="Double"
+                      LastKnownLocation="Package3_1520.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="22943015-0eaf-4fd7-b6bf-3ed8974c538c"
+                  name="lastOffset"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="e55fbb28-b206-48e2-bdc1-1aecf8cfd2c5"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEngineRectangle Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.Enums Type%3DDirections)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]) ParameterIdentifier%3DlastOffset"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="260a3beb-2a86-4da5-88fd-5246c524d328"
+                      LastKnownName="Double"
+                      LastKnownLocation="Package3_1520.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4d3e43bd-c7c1-4ab2-8b95-49bc8e0fcaa5"
+                  name="direction"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="48161dda-1f55-4a93-825c-ad6e1e74896e"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEngineRectangle Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.Enums Type%3DDirections)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]) ParameterIdentifier%3Ddirection"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <enumerationMoniker
+                      Id="742f0b60-512b-4dd3-aac3-13f1038979c6"
+                      LastKnownName="Directions"
+                      LastKnownLocation="Package4_1520.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6c4b10c9-96dd-44cf-8208-b41d949703c7"
+                  name="isBarrier"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="3673d0a0-5d83-4a51-8065-73be7008464b"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEngineRectangle Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.Enums Type%3DDirections)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]) ParameterIdentifier%3DisBarrier"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="TheHardestGame.GameEngine.Modeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="a74bcae8-e5e2-45bc-b73e-5546d944f275"
+            name="EngineRectangle"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="bd5ad690-611f-4304-949f-c09d2034a414"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEngineRectangle Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEnginePoint)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEngineSize)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.Enums Type%3DDirections)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f17658da-1910-4162-a407-dc19697e86c7"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e4a64fbd-c7fb-4614-883c-9dc082fd327e">
+                    <propertyInstance
+                      Id="9ab59c23-05ad-4912-ad31-a37865b625d2"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8b47361c-4ea5-47aa-9b3e-2f8b5bdf41ae">
+                    <propertyInstance
+                      Id="447ebb7e-8e9d-465f-b868-6263f3149cb2"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="899b3758-6cdf-4fa1-ba17-e9f6b854e727">
+                    <propertyInstance
+                      Id="6e12a985-771f-4cda-88c1-95bfef1ad211"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="175c837f-c361-4c79-8491-ac69a4ec4830">
+                    <propertyInstance
+                      Id="28711829-1a3b-43b3-bafb-0eb60974d1de"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="73d62175-e85f-4f4a-868c-5d22a6041830">
+                    <propertyInstance
+                      Id="7b7bd89c-069d-4057-9807-b0c8c76c27d8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="88696f1f-b2b9-4fed-af92-77d2b4c97011">
+                    <propertyInstance
+                      Id="99041dd6-6fbd-4c80-a40d-e7385d32da16"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="877939b2-4781-4ba5-a284-ba9cca3d91a3"
+                  name="location"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="2a6621b8-8a18-4be3-9b49-763541bb4d48"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEngineRectangle Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEnginePoint)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEngineSize)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.Enums Type%3DDirections)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]) ParameterIdentifier%3Dlocation"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="28951a39-d2f3-48d6-839b-a4537d0231b7"
+                      LastKnownName="EnginePoint"
+                      LastKnownLocation="Package2_1520.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d84eb2f7-a1a2-4909-9a58-ed5ff0986ec9"
+                  name="size"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="14084a76-899d-4e76-b031-321476985e4e"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEngineRectangle Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEnginePoint)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEngineSize)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.Enums Type%3DDirections)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]) ParameterIdentifier%3Dsize"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="42b1fb4f-5acb-4a92-86f1-bbdd046ec257"
+                      LastKnownName="EngineSize"
+                      LastKnownLocation="Package2_1520.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c53d8331-4140-4755-93fa-d3ef0b3e99b3"
+                  name="lastOffset"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="38b9d743-77ad-4bf9-a452-c1920752683e"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEngineRectangle Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEnginePoint)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEngineSize)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.Enums Type%3DDirections)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]) ParameterIdentifier%3DlastOffset"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="260a3beb-2a86-4da5-88fd-5246c524d328"
+                      LastKnownName="Double"
+                      LastKnownLocation="Package3_1520.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="0d305526-b7f3-4a90-acdb-be553b69e3cc"
+                  name="direction"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="10335d1f-e780-45c2-9dca-b7765793c000"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEngineRectangle Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEnginePoint)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEngineSize)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.Enums Type%3DDirections)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]) ParameterIdentifier%3Ddirection"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <enumerationMoniker
+                      Id="742f0b60-512b-4dd3-aac3-13f1038979c6"
+                      LastKnownName="Directions"
+                      LastKnownLocation="Package4_1520.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="0878b963-0504-45d9-b4e3-ebabfc3efb28"
+                  name="isBarrier"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="8e42e5f7-ed18-492b-ae30-5acc5a26d877"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEngineRectangle Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEnginePoint)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEngineSize)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.Enums Type%3DDirections)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]) ParameterIdentifier%3DisBarrier"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="TheHardestGame.GameEngine.Modeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="42b1fb4f-5acb-4a92-86f1-bbdd046ec257"
+        name="EngineSize"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="190950a3-60a7-49ae-933c-8e2e894c5068"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEngineSize"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="243c98f9-9a8f-48da-9ea4-5c3cf3c7db27"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="08ffcf41-bc2c-4dbe-aee0-c7eaa949fd7f">
+                <propertyInstance
+                  Id="96c5ff0b-ba67-4e30-9d0f-ab3cd2ea4304"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1c453d92-5117-4f5f-a4de-175e9037dd87">
+                <propertyInstance
+                  Id="dd5b054d-27ae-4309-aa0d-fc08c723b7c9"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="084d529e-01c3-4940-b814-ce28b0afbe98">
+                <propertyInstance
+                  Id="19ff4859-df21-462a-bf9b-27611f32b8e8"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="153c7495-6a46-4614-97de-29c925210250">
+                <propertyInstance
+                  Id="32b7abe8-0f79-4c9f-b4e7-063f31bbca81"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="48b1bfe8-a204-4e71-9ffa-094513e63d05">
+                <propertyInstance
+                  Id="ccc65a29-2bb2-493c-a2a6-c9bcbb1f761b"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="133478ff-d12b-47f2-8c1e-11da98c24064"
+            isDerived="false"
+            sourceEndRoleName="EngineSize"
+            targetEndRoleName="Height"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="260a3beb-2a86-4da5-88fd-5246c524d328"
+              LastKnownName="Double"
+              LastKnownLocation="Package3_1520.uml" />
+            <description>Property Height references type Double.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="271cdb38-1671-465b-8284-6c6860d188cb"
+                  name="EngineSize"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="a21af5b9-4c77-459c-84b9-35d13edc2d01"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="3ba06bb4-f690-49e0-959a-f35677fd5c9e"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="282944d8-450d-4888-8719-157d58407734"
+                  name="Height"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="66752919-4838-48f2-aac5-73236b1f59d8"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="bd426634-4318-43a5-a8d2-90103719102d"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="cb856eb4-4f20-40ba-81bb-fe5a19899da8"
+            isDerived="false"
+            sourceEndRoleName="EngineSize"
+            targetEndRoleName="Width"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="260a3beb-2a86-4da5-88fd-5246c524d328"
+              LastKnownName="Double"
+              LastKnownLocation="Package3_1520.uml" />
+            <description>Property Width references type Double.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="af9d5950-913f-4246-ad23-cc7d6b8b1baf"
+                  name="EngineSize"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="d7716f4e-3ef4-41bd-b837-134a8ead303b"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="6728bfab-956b-4ae3-9118-65900eeaa54f"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="079343d5-1586-46aa-b502-d1aac6fa9928"
+                  name="Width"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="b05c1ff5-caa4-4515-8a8a-b7c4576aa767"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="6e2be466-05b5-4cde-8909-3c9a1697de9f"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="9eb6e721-8312-4e8d-8103-382eb7291b28"
+            name="Height"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="d7450cd5-5e5d-46ae-ae2d-905f8132baa0"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEngineSize Member%3DHeight"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6f4edae2-aaa5-434d-b0a4-1fa94cc2e2e6"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="02a733d7-8a8a-45bc-a4f3-86418a1dcf91">
+                    <propertyInstance
+                      Id="793cccbe-e1d0-4f90-8f68-aef2c00a3937"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7779955b-5fc9-42df-a193-9c163eb51660">
+                    <propertyInstance
+                      Id="0b1bbeb6-ef53-4125-8ead-ee437d6807f8"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f6499299-d817-47be-ac74-7bdba7815014">
+                    <propertyInstance
+                      Id="47db309b-1293-4e9e-bdc8-85c421ff0034"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f0c8569d-1a0e-4fdf-bc29-22564155bc13">
+                    <propertyInstance
+                      Id="8f1532ce-2678-44ee-a953-f01d609b1c76"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c5b83f09-4598-4502-89d2-0c6da0368d91">
+                    <propertyInstance
+                      Id="776de718-972f-4a61-a4ef-0a8b29450958"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2edbf24e-3b9b-49a8-8609-efa919cff2ff">
+                    <propertyInstance
+                      Id="d4367c3e-f453-4cdd-b61a-1dfce89257a3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bb892748-89d9-452a-9327-0b8209fad82c">
+                    <propertyInstance
+                      Id="fb51a064-43ee-4f73-885c-aa508d333ecd"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="260a3beb-2a86-4da5-88fd-5246c524d328"
+                LastKnownName="Double"
+                LastKnownLocation="Package3_1520.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="7c4504e9-56b5-4837-9de2-5779d0e8ec96"
+            name="Width"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="7eba88d9-bad7-4b16-a33d-02fba3752439"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEngineSize Member%3DWidth"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="586f90cc-847b-4ff3-ab98-b7dc4b1b0bd1"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="256844e1-082c-4ec9-9531-ca2d95e5055f">
+                    <propertyInstance
+                      Id="29b78d21-ec11-4314-9532-602703394c71"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0ce15035-1beb-4e1d-88a2-5e1ff22f3b9e">
+                    <propertyInstance
+                      Id="59256f17-b7bf-4d3e-b014-0e9a87e6d7fc"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4f15638a-e9e4-4c91-9faf-ce6dccd78b59">
+                    <propertyInstance
+                      Id="5e55c6c7-8866-4c7a-aaf2-0e99d96acb65"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9f829969-f0b9-45c8-a4ed-a5a7d1f4229d">
+                    <propertyInstance
+                      Id="b21e9983-028a-40e6-8483-849e75f92cde"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bfefa8d5-b1b4-4bf2-82de-f72640f29639">
+                    <propertyInstance
+                      Id="50cbaf29-721f-4432-a1a2-c6ad06b189c3"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="890b68af-dc0e-4fbd-b4b1-c65b9fcbc02b">
+                    <propertyInstance
+                      Id="e16436af-848c-444e-b011-5e91e10479c3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="59ae080b-f428-46c1-b79b-0e98532438e6">
+                    <propertyInstance
+                      Id="2142f567-5ac4-4205-a45a-cd7ff0749124"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="260a3beb-2a86-4da5-88fd-5246c524d328"
+                LastKnownName="Double"
+                LastKnownLocation="Package3_1520.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="a593f395-9247-4f69-b926-5e6c673ec644"
+            name="EngineSize"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="6826e4d9-8431-4f1c-b31d-d64c66e653fb"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEngineSize Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b1f4c235-892e-46a3-970d-4b5a5043d067"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bfc846fd-6a07-4dfa-9953-97caad140c40">
+                    <propertyInstance
+                      Id="f4f5014e-5783-4102-bd90-c8c893a0c220"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="852dd6ec-5a19-404a-8af8-61c703215124">
+                    <propertyInstance
+                      Id="25518bcb-0ea5-4c9c-8d84-8960bee261e4"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b5b2afd2-8f3e-47be-bb4a-95106b5b0c6c">
+                    <propertyInstance
+                      Id="b0539b93-c534-4daa-83e4-1a581fc1793b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="db2fb9c6-258e-4b73-ba7b-3df14ae8f1f5">
+                    <propertyInstance
+                      Id="f2de08a8-4e79-48ac-a3ac-04a22eb8ad09"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="69490366-794a-47b3-b621-050a5be8d739">
+                    <propertyInstance
+                      Id="6c71f737-e73a-4bc9-a4a9-108babb57ba1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5541376c-28f4-44cf-bfcd-5c401fcd333d">
+                    <propertyInstance
+                      Id="c6057b5b-f6b7-468a-83b1-b5ea431bc10b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7a028c7b-7b3e-4861-baef-9b9ca297fbc3"
+                  name="height"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="4e10f9b4-3546-4c16-9ece-f52cd43d6e13"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEngineSize Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)]) ParameterIdentifier%3Dheight"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="260a3beb-2a86-4da5-88fd-5246c524d328"
+                      LastKnownName="Double"
+                      LastKnownLocation="Package3_1520.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="869117b3-33f9-4381-93eb-c88f880135f5"
+                  name="width"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="b185c878-4f84-4d2f-a085-78b67d0ad630"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEngineSize Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)]) ParameterIdentifier%3Dwidth"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="260a3beb-2a86-4da5-88fd-5246c524d328"
+                      LastKnownName="Double"
+                      LastKnownLocation="Package3_1520.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="0e5f3dcd-39e6-45e5-b29e-9473da5d4839"
+            name="EngineSize"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3214a452-b73c-4f15-a00a-5955108e0d89"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEngineSize Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEngineSize)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fa5c592c-cc99-4102-884b-c5b8f9482bfe"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f50edf45-7e62-4cab-a51a-065d2d5db474">
+                    <propertyInstance
+                      Id="7786920f-96d5-4b54-ac1f-096e0643aa92"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2a4d846b-f5ca-4051-b10b-ba33c8df4e91">
+                    <propertyInstance
+                      Id="c0647110-cdb2-4e6f-9aca-da666387f5b1"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b5f42736-2a9d-461d-a685-5d2c72630f41">
+                    <propertyInstance
+                      Id="33417211-1afa-49fe-9113-7eb50990f4a9"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1d3be24c-4161-40ea-a54f-e4673146bb4f">
+                    <propertyInstance
+                      Id="2db6861d-cdf0-4b26-b917-d0fcc44e8d89"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="44d9c0af-1d32-4f25-bd33-e0c8864ebf76">
+                    <propertyInstance
+                      Id="ef21f27a-03e2-4024-9fcc-43698b10365f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7baf25a2-5db0-4bb2-af24-7004d8d2977d">
+                    <propertyInstance
+                      Id="41811b55-5cc1-4303-88e5-7be0c0d2633d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="25e29c6b-cde3-4149-9c9d-014db92db131"
+                  name="es"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="9359ef30-47ed-474f-8c9b-c043a73e21ff"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEngineSize Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.AdditionalClasses Type%3DEngineSize)]) ParameterIdentifier%3Des"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="42b1fb4f-5acb-4a92-86f1-bbdd046ec257"
+                      LastKnownName="EngineSize"
+                      LastKnownLocation="Package2_1520.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

@@ -1,0 +1,491 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="845935ae-276c-41ab-9a8e-dfa637709de1"
+  name="Events"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="a7f1eaca-19e2-453f-ae5f-9cbafcda18cb"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DTheHardestGame.GameEngine.Events"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="a29c3531-5731-45a3-bf4b-888eaea7951b"
+        name="DieEventArgs"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="2e711f72-bc02-49af-9142-84c0e853a647"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FDebug%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.Events Type%3DDieEventArgs"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="acf30474-81fa-4a87-852e-57021b228224"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b63de544-e22c-441e-9a03-45f30684e134">
+                <propertyInstance
+                  Id="18dab80d-0aee-4803-9070-de7be0c6f50a"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2b7d701c-8833-4ffc-9b34-ffd9089f8913">
+                <propertyInstance
+                  Id="ffd5d0c3-9ab0-454c-8c97-35b5e4debd09"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ec59af5e-8fe1-44df-8999-6d822fe747ac">
+                <propertyInstance
+                  Id="1789a4d7-77ac-437d-8f64-3a0db5397c7e"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="87935b67-4838-4cae-9a5d-c755036e4c37">
+                <propertyInstance
+                  Id="3117e1bd-f8b6-40d5-8b72-5a7d8e9a5fad"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b190289a-9e36-4d5d-a3a5-a864e9381d24">
+                <propertyInstance
+                  Id="58bf1f6c-5f1f-4f5c-a1bf-6a6717f6b5e7"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="b512937e-16c9-4083-bb56-23d6cf33b51f"
+            isSubstitutable="false">
+            <classMoniker
+              Id="d28de079-162a-4253-bf77-018def46f918"
+              LastKnownName="EventArgs"
+              LastKnownLocation="Package3_1520.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="75ee9e57-bb05-493e-9492-f390ffbd5926"
+            name="Die"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="119b5b7a-4398-41e2-b8d7-86e37af6bd1c"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FDebug%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.Events Type%3DDieEventArgs Member%3DDie"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a60baa4e-7512-4ff7-8714-56837dbea2bf"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1ad905c7-44ec-45bb-83d2-4339f627a18c">
+                    <propertyInstance
+                      Id="c8c1b5c8-f910-4442-bb26-7a6d530d6e11"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="34dac7c7-cd28-4d60-95d1-fd672103504e">
+                    <propertyInstance
+                      Id="fa936eb3-5fda-40c9-b438-fce30bff2283"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f0ab08b3-e338-42c9-96a2-ad7415967848">
+                    <propertyInstance
+                      Id="9b737eb2-d8e6-4b9a-a116-1160b53c3307"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="65323e6f-d0fe-4973-885a-7069cf51f65d">
+                    <propertyInstance
+                      Id="712d9682-522e-4b21-873a-75376205dcef"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bcc70567-cace-43e0-bc1f-172f65e17a5b">
+                    <propertyInstance
+                      Id="8c31a5f7-480e-4ded-9c03-1949fdd1b153"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="53e52573-5ae3-46c2-9235-024c48467f15">
+                    <propertyInstance
+                      Id="6a894739-e900-432c-a328-3a0fe8a37d55"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="77db8edb-51f7-4d78-a11d-311593339da3">
+                    <propertyInstance
+                      Id="9d63ef69-1297-4ad7-a0bd-bff33ff396cc"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                LastKnownName="Boolean"
+                LastKnownLocation="TheHardestGame.GameEngine.Modeling.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="ceeb9b99-ea56-4d87-8ffa-30ab9f7cfadb"
+            name="DieEventArgs"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="44fe39c1-8df8-49b3-8f03-864ffc553c0c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FDebug%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.Events Type%3DDieEventArgs Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a33c02d7-eee9-42ce-ae48-5093d89fd287"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3eb3855e-70dc-4c3e-adaa-9b1b0eea7017">
+                    <propertyInstance
+                      Id="dca62e47-c6b7-49c1-981c-95ada68fac53"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="087315b5-3cdc-4807-ba58-c301381f3b61">
+                    <propertyInstance
+                      Id="ed2cfb0e-510f-4530-be65-09639bae8cff"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c763f4b7-ede1-401a-9185-6583b99deb47">
+                    <propertyInstance
+                      Id="db64c013-3d73-4602-a6c7-5173543228d3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5826bd64-077a-4c7d-8d7a-1bc6c8cca12e">
+                    <propertyInstance
+                      Id="c61eb638-f32f-4d44-948c-7257026f5e88"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="74f43aec-e702-4406-a959-c2940231f6e0">
+                    <propertyInstance
+                      Id="dc008704-699b-4a7b-a616-3e5322ba916b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="62aa0ad8-b3fe-4635-994b-e444566750a4">
+                    <propertyInstance
+                      Id="8bb9b619-7d12-4db0-9892-0dd271f0f668"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d648205a-dc59-4c99-b6d3-43604e7ebdff"
+                  name="die"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="6dc3e6df-5e50-488e-91ad-eef2c01049df"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FDebug%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.Events Type%3DDieEventArgs Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]) ParameterIdentifier%3Ddie"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="TheHardestGame.GameEngine.Modeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="18ce2d55-1ff3-4166-b3e2-73ada08b8b18"
+        name="FinishEventArgs"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="93be18d2-3375-4a4a-a0ad-96b9efb6883f"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FDebug%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.Events Type%3DFinishEventArgs"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="3d54d730-50aa-4c7e-884b-71d079f3acd5"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9c9f6726-2407-472b-940f-a8de7b08dc44">
+                <propertyInstance
+                  Id="f5da15ff-7f8e-4271-bfc3-b03dae8ccb53"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bd5df161-2fc8-49bb-a1fc-176cc276a63f">
+                <propertyInstance
+                  Id="1a1a2cc2-513a-4d21-ab33-18bfc257b1a0"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c13b69c0-ddd8-4d2e-a949-0ef0d35e7f24">
+                <propertyInstance
+                  Id="3e17fbef-80ec-456f-8d44-4f8f01b56fb7"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="de5bf6fd-832c-4554-b5ce-9b673f10c718">
+                <propertyInstance
+                  Id="508c6f1f-051f-4384-b862-e5b982cba9ff"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8cc73f24-3466-4657-8ecb-862f0fa3258d">
+                <propertyInstance
+                  Id="0b114188-5c9a-41a6-bd47-e0805e5505f9"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="391f0a44-5059-4fab-82b4-46f03ad1e4df"
+            isSubstitutable="false">
+            <classMoniker
+              Id="d28de079-162a-4253-bf77-018def46f918"
+              LastKnownName="EventArgs"
+              LastKnownLocation="Package3_1520.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="7180e48b-35da-41ba-b827-161859efc528"
+            name="Finish"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="7716a328-a59e-4eb9-bece-48ed1cb16b14"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FDebug%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.Events Type%3DFinishEventArgs Member%3DFinish"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="368b4884-0ffb-46b7-8251-ff66556c2431"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cbfd4dfc-d10f-45be-b26d-aa1d0e89329f">
+                    <propertyInstance
+                      Id="f4f31691-476b-4b85-ad7e-dc65e8e14cbb"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8f862e99-f5f6-420c-aff6-4601d31383df">
+                    <propertyInstance
+                      Id="c44cbd75-bc53-4335-a6f1-1dbdd0367892"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f125e5ce-ce6f-45ed-ad69-4e70c2174397">
+                    <propertyInstance
+                      Id="010baddc-50fc-4a74-be1b-fa629deb7f0f"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1de7fb72-10c0-4cc4-9887-76f1ed28b5f9">
+                    <propertyInstance
+                      Id="9a4e4033-3510-4021-bbed-1656dbad1b92"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b7bbf630-efb6-4e32-a57b-9516aa621624">
+                    <propertyInstance
+                      Id="18d6e12f-6291-4bbe-9181-2ccfc21b40c0"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="933b144f-65d1-4ad8-8bef-ab57617556aa">
+                    <propertyInstance
+                      Id="14554057-edf2-40fb-a2e2-0527cfab71fe"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e88e4357-907a-4a9c-b5c8-3a523a6a1340">
+                    <propertyInstance
+                      Id="15c03d78-d626-46cd-993e-6e0e19a07e55"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                LastKnownName="Boolean"
+                LastKnownLocation="TheHardestGame.GameEngine.Modeling.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="7f16637a-aad1-42f0-a41a-4361bf819c6a"
+            name="FinishEventArgs"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="baec8e41-9800-4a2c-9507-e3ce6bfca85f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FDebug%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.Events Type%3DFinishEventArgs Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d861106e-96fe-4db1-a5f6-7783368c8208"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3ceec03f-4b62-4404-befa-b5fb10eb5273">
+                    <propertyInstance
+                      Id="89f39b9e-b07a-4461-9ccc-5707aef3aec6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="49ea1d43-98c8-413d-aa46-c481742cb990">
+                    <propertyInstance
+                      Id="38f4e549-16e7-434b-82f9-d69333131570"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d815a4e0-1459-472c-be5f-5f457e3079ef">
+                    <propertyInstance
+                      Id="597ba4c9-82c4-4e65-955b-2300f93c54f4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="21bb62cf-4c54-407c-b9ce-9b94c178e290">
+                    <propertyInstance
+                      Id="3923da57-2bb6-4dff-8f03-0959029cfa88"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dcaa8e49-1c14-4e2c-b9b6-efddbfb6843a">
+                    <propertyInstance
+                      Id="92406080-ed87-4fd8-9d9f-eac13f37ade7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="10635406-49b0-4bf9-89d2-02c5765810f2">
+                    <propertyInstance
+                      Id="a14b8544-b008-4f1c-b541-da8f49dff874"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f0da16f5-6044-4b6d-8871-811a62388b43"
+                  name="finish"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="0e217d87-52a5-4744-a1ea-d3d49f5ca8fa"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FDebug%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.Events Type%3DFinishEventArgs Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]) ParameterIdentifier%3Dfinish"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="TheHardestGame.GameEngine.Modeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

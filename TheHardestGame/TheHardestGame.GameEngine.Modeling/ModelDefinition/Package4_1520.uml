@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="03c27cf6-dcf5-4e13-b3b2-866373fbec62"
+  name="Enums"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="75281b24-52a3-4b69-9b16-a4ea313bacea"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DTheHardestGame.GameEngine.Enums"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <enumeration
+        Id="742f0b60-512b-4dd3-aac3-13f1038979c6"
+        name="Directions"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="4887c9ae-311a-4fc8-8479-2697020e7eff"
+            handle="viewcode://./CodeSchema_Enum?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.Enums Type%3DDirections"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="dd8bd9b1-a8a9-4cec-96bd-19b242a4cda1"
+            name="enum"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="43d35b34-46a2-435b-8039-d12ab5948861">
+                <propertyInstance
+                  Id="945e88d7-6c9f-4561-9a18-bb0cb21cf3e1"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f80ac798-a1bd-4db8-b0d0-754b1a099e09">
+                <propertyInstance
+                  Id="f3900cb8-8957-4211-8076-8ddd6c1e540a"
+                  name="BaseType"
+                  value="int" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="618b7770-1ee2-4623-a801-3f9bd006c273">
+                <propertyInstance
+                  Id="baa7a582-f960-4bf6-b9a0-aae9a831a256"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedLiterals>
+          <enumerationLiteral
+            Id="f3835011-70b0-42e9-8d50-d2e0306aed40"
+            name="Up">
+            <referencesInternal>
+              <reference
+                Id="f1b79035-43d0-4d48-a9e5-64429927c808"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.Enums Type%3DDirections Member%3DUp"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+          <enumerationLiteral
+            Id="90a45753-c22c-4808-bac1-e21c4062eeeb"
+            name="Down">
+            <referencesInternal>
+              <reference
+                Id="17ca85fb-4b79-4f58-8606-c4056cf06023"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.Enums Type%3DDirections Member%3DDown"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+          <enumerationLiteral
+            Id="6126816d-0de6-4e7a-80b8-5c5cf8bcac60"
+            name="Left">
+            <referencesInternal>
+              <reference
+                Id="38fdb08e-c0b7-44df-96f4-27aaad54d2c1"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.Enums Type%3DDirections Member%3DLeft"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+          <enumerationLiteral
+            Id="3173dcdd-7fc4-40f5-9606-1638e09747a1"
+            name="Right">
+            <referencesInternal>
+              <reference
+                Id="2565f50f-00e3-4d69-865d-76893ec3bcfb"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.Enums Type%3DDirections Member%3DRight"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+          <enumerationLiteral
+            Id="dfef9f84-a1ba-4809-84cd-34a143e31acd"
+            name="Wrong">
+            <referencesInternal>
+              <reference
+                Id="e8b25e1d-8b36-4706-a5a7-bec73c0fb8dd"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.Enums Type%3DDirections Member%3DWrong"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+        </ownedLiterals>
+      </enumeration>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <enumeration
+        Id="e9a93336-2991-4d92-af63-c8e0b4f208c2"
+        name="States"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="dfafe6d3-73a7-4fa0-89d7-a19afae06707"
+            handle="viewcode://./CodeSchema_Enum?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.Enums Type%3DStates"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a154f33e-395a-4f9f-aebe-1de4dc98ca63"
+            name="enum"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1dffa4fa-a7aa-415b-904f-9579186103eb">
+                <propertyInstance
+                  Id="0048a319-6a99-4627-80d1-4a8e26d4ac22"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9280d662-5e89-4a6c-adbf-3e2f975df54d">
+                <propertyInstance
+                  Id="74c52a69-1e18-4115-8174-0aa05e642590"
+                  name="BaseType"
+                  value="int" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4fd6a98b-4a85-469e-8dfb-30ca938fb7de">
+                <propertyInstance
+                  Id="ece7a2a3-a065-460a-980c-2a324641021b"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedLiterals>
+          <enumerationLiteral
+            Id="d47064c5-1516-4c7b-89ff-d508a5b31f61"
+            name="Running">
+            <referencesInternal>
+              <reference
+                Id="e8bfa8b6-cdf4-47c5-89f1-08b470fc7b9c"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.Enums Type%3DStates Member%3DRunning"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+          <enumerationLiteral
+            Id="31a6b1c3-52a5-4e18-8ee1-8bb1fb951c20"
+            name="Stopped">
+            <referencesInternal>
+              <reference
+                Id="e94a94ca-5604-488f-bc20-39916ce94f94"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.Enums Type%3DStates Member%3DStopped"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+          <enumerationLiteral
+            Id="c1912140-4744-4ad2-a22e-2876abd929e4"
+            name="ReadyToStart">
+            <referencesInternal>
+              <reference
+                Id="41212af9-f49d-40cb-8aa4-1fb6e75508e5"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FROMA%2FDocuments%2FVisual Studio 2013%2FProjects%2FTheHardestGame%2FTheHardestGame.GameEngine%2Fbin%2FRelease%2FTheHardestGame.GameEngine.dll&quot; Namespace%3DTheHardestGame.GameEngine.Enums Type%3DStates Member%3DReadyToStart"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+        </ownedLiterals>
+      </enumeration>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

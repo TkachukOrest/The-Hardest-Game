@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2015-05-18T16:11:07" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2015-05-18T16:11:07" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'TheHardestGame.GameEngine.Modeling::TheHardestGame' -  (Package)" />
+  <Message Timestamp="2015-05-18T16:11:07" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'TheHardestGame.GameEngine.Modeling::TheHardestGame::GameEngine' -  (Package)" />
+  <Message Timestamp="2015-05-18T16:11:07" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'TheHardestGame.GameEngine.Modeling::TheHardestGame::GameEngine::Enums' -  (Package)" />
+  <Message Timestamp="2015-05-18T16:11:07" Importance="Medium" Text="Element reverse engineered into the UML model: 'TheHardestGame.GameEngine.Modeling::TheHardestGame::GameEngine::Enums::Directions' -  (Enumeration)" />
+  <Message Timestamp="2015-05-18T16:11:07" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'TheHardestGame.GameEngine.Modeling::TheHardestGame::GameEngine::Enums::Directions::Down' -  (EnumerationLiteral)" />
+  <Message Timestamp="2015-05-18T16:11:07" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'TheHardestGame.GameEngine.Modeling::TheHardestGame::GameEngine::Enums::Directions::Left' -  (EnumerationLiteral)" />
+  <Message Timestamp="2015-05-18T16:11:07" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'TheHardestGame.GameEngine.Modeling::TheHardestGame::GameEngine::Enums::Directions::Right' -  (EnumerationLiteral)" />
+  <Message Timestamp="2015-05-18T16:11:07" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'TheHardestGame.GameEngine.Modeling::TheHardestGame::GameEngine::Enums::Directions::Up' -  (EnumerationLiteral)" />
+  <Message Timestamp="2015-05-18T16:11:07" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'TheHardestGame.GameEngine.Modeling::TheHardestGame::GameEngine::Enums::Directions::Wrong' -  (EnumerationLiteral)" />
+  <Message Timestamp="2015-05-18T16:11:07" Importance="Medium" Text="Element reverse engineered into the UML model: 'TheHardestGame.GameEngine.Modeling::TheHardestGame::GameEngine::Enums::States' -  (Enumeration)" />
+  <Message Timestamp="2015-05-18T16:11:07" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'TheHardestGame.GameEngine.Modeling::TheHardestGame::GameEngine::Enums::States::ReadyToStart' -  (EnumerationLiteral)" />
+  <Message Timestamp="2015-05-18T16:11:07" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'TheHardestGame.GameEngine.Modeling::TheHardestGame::GameEngine::Enums::States::Running' -  (EnumerationLiteral)" />
+  <Message Timestamp="2015-05-18T16:11:07" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'TheHardestGame.GameEngine.Modeling::TheHardestGame::GameEngine::Enums::States::Stopped' -  (EnumerationLiteral)" />
+  <Message Timestamp="2015-05-18T16:11:07" Importance="High" Text="(2) type(s) fully reverse engineered." />
+  <Message Timestamp="2015-05-18T16:11:07" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+</Log>
