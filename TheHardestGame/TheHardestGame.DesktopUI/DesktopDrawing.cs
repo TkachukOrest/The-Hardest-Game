@@ -55,7 +55,7 @@ namespace TheHardestGame.DesktopUI
 			this.DrawRectangle(graphics, pb, green2, Brushes.DarkGreen);
 
 			this.GetColors(pb);
-
+            //Peer Review: перед else зайвий пропуск
 			if (pb.InvokeRequired)
 			{
 				Action refresh = new Action(pb.Invalidate);
@@ -197,7 +197,7 @@ namespace TheHardestGame.DesktopUI
 
 					break;
 			}
-
+            //Peer Review: перед else зайвий пропуск
 			if (pb.InvokeRequired)
 			{
 				Action refresh = new Action(pb.Invalidate);
@@ -222,7 +222,7 @@ namespace TheHardestGame.DesktopUI
 				}
 			}
 
-
+            //Peer Review: перед else зайвий пропуск
 			if (pb.InvokeRequired)
 			{
 				Action refresh = new Action(pb.Invalidate);

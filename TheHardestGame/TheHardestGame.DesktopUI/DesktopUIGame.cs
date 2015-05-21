@@ -18,7 +18,7 @@ using Brushes = System.Drawing.Brushes;
 namespace TheHardestGame.DesktopUI
 {
 	internal class DesktopUiGame
-	{
+	{        
 		private object _sync = new object();
 
 		private readonly MainWindow _mainWindow;
@@ -52,7 +52,8 @@ namespace TheHardestGame.DesktopUI
 				this._mediaPlayerMain.Position = new TimeSpan(0);
 				this._mediaPlayerMain.Play();
 			});
-
+            //Peer Review: конструктор можна розділити на дрібніші методи, наприклад, цей try{} catch{}
+            //винести в метод InitiallizeMediaPlayer
 			try
 			{
 				this._mediaPlayerMain.Open(new Uri(Application.StartupPath + "\\Sounds\\Main.mp3"));
@@ -173,7 +174,7 @@ namespace TheHardestGame.DesktopUI
 				this.ShowWindow();
 			}
 		}
-
+        
 		public EngineRectangle TransformEngineRectangle(EngineRectangle er)
 		{
 			return new EngineRectangle(er.X/this._engineToDesktopMultiplier + this._horizontalOffset,
@@ -212,6 +213,8 @@ namespace TheHardestGame.DesktopUI
 
 		private void SetLabelText()
 		{
+            //Peer Review: Можна просто використовувати конкатинацію стрінгів
+            //this._labelDeath.Text=String.Format(""Deaths: {0}", this._game.Deaths");
 			StringBuilder sb = new StringBuilder();
 			sb.AppendFormat("Deaths: {0}", this._game.Deaths);
 			this._labelDeath.Text = sb.ToString();
@@ -246,7 +249,7 @@ namespace TheHardestGame.DesktopUI
 				{
 					this._mediaPlayerEvents.Play();
 				}
-
+                //Peer Review: Зайвий пропуск перед else
 				if (MessageBox.Show(@"CONGRATULATION!!! You have finished the game", @"Finished", MessageBoxButtons.YesNo,
 					MessageBoxIcon.Information) == DialogResult.Yes)
 				{

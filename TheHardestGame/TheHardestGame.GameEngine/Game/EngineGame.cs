@@ -9,7 +9,8 @@ namespace TheHardestGame.GameEngine.Game
 	public class EngineGame
 	{
 		#region Constants
-
+        //Pere Review: Володимиром було запропоновано називати всі змінні в цьому проекті за стилем
+        //THE_DEFAULTPRECISSION, хоча Решарпер і FxCop рекомендують називати  DefaultPrecision
 		private const double DefaultPrecision = 15000.0;
 
 		private const int Horizontal = 20;
@@ -29,7 +30,7 @@ namespace TheHardestGame.GameEngine.Game
 		public EngineRectangle[] Barriers { get; private set; }
 
 		private EngineRectangle[] _forbidenZones;
-
+        //Peer Review: змінна, яка не використовується в цьому класі - необхідно видалити
 		public Timer EngineTimer { get; private set; }
 
 
@@ -40,7 +41,7 @@ namespace TheHardestGame.GameEngine.Game
 		#endregion
 
 		#region Events
-
+        
 		public event EventHandler<bool> EventFinish;
 		public event EventHandler<EngineRectangle> EventDie;
 		public event EventHandler<EngineRectangle> EventMove;
@@ -56,7 +57,7 @@ namespace TheHardestGame.GameEngine.Game
 
 			this.RectWidth = this.Width/Horizontal;
 			this.RectHeight = this.Height/Vertical;
-
+            
 			//this.EngineTimer = new Timer(50.0);
 			//this.EngineTimer.Elapsed += this.TimerElapsed;
 			//this.EngineTimer.AutoReset = true;
@@ -312,7 +313,7 @@ namespace TheHardestGame.GameEngine.Game
 						break;
 					}
 				}
-
+                
 				if (!die)
 				{
 					for (double b = er.Y; b < er.Y + er.Height; b += 0.5)
